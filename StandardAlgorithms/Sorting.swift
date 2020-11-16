@@ -33,5 +33,6 @@ class Sorting {
     
     func mergeSort(data: [Int]) -> [Int] {
         var sortedArray = data
-        
+        return sortedArray
     }
+}
