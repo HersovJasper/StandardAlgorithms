@@ -18,6 +18,7 @@
 		8FC2511E2565337B00BC7A78 /* Unknown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC251142565325300BC7A78 /* Unknown.swift */; };
 		8FC251232565374300BC7A78 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F440A592563D160004C8CA5 /* Searching.swift */; };
 		8FC251272565375300BC7A78 /* SearchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC251262565375300BC7A78 /* SearchingTest.swift */; };
+		8FE991E92567E8FE00878C1D /* SortingPerformanceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE991E82567E8FE00878C1D /* SortingPerformanceTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,7 @@
 		8FC251142565325300BC7A78 /* Unknown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unknown.swift; sourceTree = "<group>"; };
 		8FC2511A2565336F00BC7A78 /* UnknownTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownTest.swift; sourceTree = "<group>"; };
 		8FC251262565375300BC7A78 /* SearchingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingTest.swift; sourceTree = "<group>"; };
+		8FE991E82567E8FE00878C1D /* SortingPerformanceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingPerformanceTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				8F192736255EAA8F00DBB11A /* StandardAlgorithmsTests.swift */,
-				8F192738255EAA8F00DBB11A /* Info.plist */,
-				8F19273E255EABEC00DBB11A /* SortingTest.swift */,
 				8FC251262565375300BC7A78 /* SearchingTest.swift */,
+				8F19273E255EABEC00DBB11A /* SortingTest.swift */,
+				8FE991E82567E8FE00878C1D /* SortingPerformanceTest.swift */,
+				8F192738255EAA8F00DBB11A /* Info.plist */,
 				8FC2511A2565336F00BC7A78 /* UnknownTest.swift */,
 			);
 			path = StandardAlgorithmsTests;
@@ -211,6 +214,7 @@
 				8F192748255EAD1700DBB11A /* Sorting.swift in Sources */,
 				8F19273F255EABEC00DBB11A /* SortingTest.swift in Sources */,
 				8F192737255EAA8F00DBB11A /* StandardAlgorithmsTests.swift in Sources */,
+				8FE991E92567E8FE00878C1D /* SortingPerformanceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

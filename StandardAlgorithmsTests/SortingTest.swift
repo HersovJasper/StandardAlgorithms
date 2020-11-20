@@ -144,29 +144,4 @@ class SortingTest: XCTestCase {
         XCTAssertEqual(result, expected)
     }
     
-    
-    //Performance Tests//
-    
-    func testSortPerformanceWithRadomised5IntegerArray() {
-        let sorting = Sorting()
-        var testData = [Int]()
-        for _ in 1...500{
-            testData.append(Int.random(in: 1...1000))
-        }
-        measure {
-            _ = sorting.bubbleSort(data: testData)
-        }
-        /*
-        measure {
-            _ = sorting.mergeSort(data: testData)
-        }
-        measure {
-            _ = sorting.insertionSort(data: testData)
-        }
-        measure {
-            _ = sorting.quickSort(data: testData)
-        }
-        */
-    }
-    
 }
