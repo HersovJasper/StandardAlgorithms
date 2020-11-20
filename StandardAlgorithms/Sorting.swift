@@ -32,7 +32,6 @@ class Sorting {
         return sortedArray
     }
     
-    
     //MERGE SORT//
     func splitUp(array: [Int]) -> [[Int]] {
       var splitUpArray = [[Int]]()
