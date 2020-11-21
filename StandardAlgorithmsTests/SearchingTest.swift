@@ -8,6 +8,7 @@
 import XCTest
 
 class SearchingTest: XCTestCase {
+
     
     func testLinearSearchWithEmptyArrayReturnsFalse() {
         //arrange
@@ -54,4 +55,6 @@ class SearchingTest: XCTestCase {
             XCTAssertEqual(result, test.expected)
         }
     }
+
+    
 }

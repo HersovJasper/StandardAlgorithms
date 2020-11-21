@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42CB66F025693B4400DEB51C /* SearchingPerformanceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB66EF25693B4400DEB51C /* SearchingPerformanceTest.swift */; };
 		8F004BB1255BFC580083CC5A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F004BB0255BFC580083CC5A /* main.swift */; };
 		8F192737255EAA8F00DBB11A /* StandardAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F192736255EAA8F00DBB11A /* StandardAlgorithmsTests.swift */; };
 		8F19273F255EABEC00DBB11A /* SortingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F19273E255EABEC00DBB11A /* SortingTest.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		42CB66EF25693B4400DEB51C /* SearchingPerformanceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingPerformanceTest.swift; sourceTree = "<group>"; };
 		8F004BAD255BFC580083CC5A /* StandardAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StandardAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F004BB0255BFC580083CC5A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8F192734255EAA8F00DBB11A /* StandardAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandardAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 				8FC251262565375300BC7A78 /* SearchingTest.swift */,
 				8F19273E255EABEC00DBB11A /* SortingTest.swift */,
 				8FE991E82567E8FE00878C1D /* SortingPerformanceTest.swift */,
+				42CB66EF25693B4400DEB51C /* SearchingPerformanceTest.swift */,
 				8F192738255EAA8F00DBB11A /* Info.plist */,
 				8FC2511A2565336F00BC7A78 /* UnknownTest.swift */,
 			);
@@ -209,6 +212,7 @@
 			files = (
 				8FC251232565374300BC7A78 /* Searching.swift in Sources */,
 				8FC251272565375300BC7A78 /* SearchingTest.swift in Sources */,
+				42CB66F025693B4400DEB51C /* SearchingPerformanceTest.swift in Sources */,
 				8FC2511E2565337B00BC7A78 /* Unknown.swift in Sources */,
 				8FC2511B2565336F00BC7A78 /* UnknownTest.swift in Sources */,
 				8F192748255EAD1700DBB11A /* Sorting.swift in Sources */,

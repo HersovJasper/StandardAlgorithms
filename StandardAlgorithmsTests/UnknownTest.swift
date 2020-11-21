@@ -9,6 +9,8 @@ import XCTest
 
 class UnknownTest: XCTestCase {
 
+/*
+    
     func testSumFirstAndLastWithEmptyArrayReturnsZero() {
         //arrange
         let unknown = Unknown()
@@ -46,4 +48,7 @@ class UnknownTest: XCTestCase {
             XCTAssertEqual(result, test.expected)
         }
     }
+ 
+*/
+ 
 }
